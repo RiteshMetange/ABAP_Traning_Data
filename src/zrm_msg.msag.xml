@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRM_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>genral message group</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Enter the Correct Value !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>You just ran into an Error :(</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>The Opration is Successful :)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Warning !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Employee ID &amp; failed to insert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Employee ID &amp; Succesfully inserted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRM_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>This Message is from Eclipse IDE</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

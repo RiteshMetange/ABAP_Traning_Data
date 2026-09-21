@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>this is f group for tables</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRM_FG_FOR_TABLESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRM_FG_FOR_TABLES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBAPI_RM_EMPDATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>ritesh&apos;s Bapi for emp data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PEMPLOYEE</PARAMETER>
+       <TYP>ZRM_BAPI_EMPSTRUCT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET1</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PEMPLOYEE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure for emp bapi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRM_FADDITION</FUNCNAME>
+     <SHORT_TEXT>addtion funtion module</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>NUM1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM3</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>ADDITION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>VOLUME_OF_CUBOID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>TOTAL_SURFACE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>LATRAL_SURFACE_AREA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DECIMALS</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NUMBER_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>10 digit number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Numeric value</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM3</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Numeric value</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ADDITION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>6 Number of Decimal Places</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VOLUME_OF_CUBOID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of Decimal Places</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TOTAL_SURFACE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of Decimal Places</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LATRAL_SURFACE_AREA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of Decimal Places</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUMBER_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>number not found</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
